@@ -1,0 +1,15 @@
+.add-page {
+  padding: 30px 20px;
+}
+
+.add-page .clock {
+  display: none;
+  position: fixed;
+  right: 28px;
+  bottom: 50px;
+  background-color: #ecdcd6;
+  padding: 6px 18px;
+  border-radius: 19px 36px;
+  border-bottom: 3px solid #a44a2a;
+  z-index: 10;
+}

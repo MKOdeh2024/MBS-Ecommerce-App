@@ -1,0 +1,15 @@
+.addForm {
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 20px
+}
+
+.addForm > .addFormButtons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.addForm > .input-group, .addForm > .textarea-group, .addForm > .select-group {
+  margin-bottom: 20px;
+}

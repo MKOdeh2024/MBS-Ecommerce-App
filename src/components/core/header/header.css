@@ -1,0 +1,130 @@
+.websiteHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  background: #fff;
+}
+
+.websiteHeader>.left {
+  display: flex;
+  align-items: center;
+}
+
+.websiteHeader>.left>h1 {
+  font-size: 18px;
+  color: #be441d;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+
+.websiteHeader>.left>h1>img {
+  height: 35px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.websiteHeader .right {
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.websiteHeader .right nav {
+  display: flex;
+}
+
+.websiteHeader .right nav a {
+  background: unset;
+  border: unset;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 9px 20px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.websiteHeader .right nav a:hover {
+  text-shadow: -1px 2px 3px #777777;
+}
+
+.websiteHeader .right nav a:active {
+  text-shadow: -1px 2px 3px #333;
+}
+
+.websiteHeader .right nav a.current {
+  background-color: #be441d;
+  border-radius: 5px;
+  color: white;
+}
+
+.websiteHeader .right .user-badge {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.websiteHeader .right .user-badge>img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.websiteHeader .right .user-badge>button {
+  appearance: none;
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: #999;
+  cursor: pointer;
+}
+
+.websiteHeader .right .user-badge>button:hover,
+.websiteHeader .right .user-badge>button:active,
+.websiteHeader .right .user-badge>button:focus {
+  color: #666;
+}
+
+.websiteHeader .right>.cart {
+  position: relative;
+}
+
+.websiteHeader .right>.cart>img {
+  width: 30px;
+  height: 30px;
+}
+
+.websiteHeader .right>.cart>.count {
+  position: absolute;
+  color: #fff;
+  top: -8px;
+  right: -11px;
+  z-index: 2;
+  font-weight: bold;
+  background: #f15a29;
+  padding: 2px;
+  border-radius: 50%;
+  font-size: 12px;
+  min-width: 15px;
+  min-height: 15px;
+  text-align: center;
+}
+.websiteHeader .right nav a.warning_link {
+  background-color: #ffcc00;
+  margin-inline-end: 10px;
+  border-radius: 5px;
+  color: white;
+}

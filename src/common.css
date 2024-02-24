@@ -1,0 +1,27 @@
+.nemo-button {
+  appearance: none;
+  border: 1px solid #7d2e14;
+  background: #be441d;
+  color: white;
+  padding: 10px 15px;
+  border-bottom-width: 2px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.1s ease-in-out;
+}
+
+.nemo-button.grey {
+  border: 1px solid #787878;
+  background: #9a9a9a;
+}
+
+.nemo-button.grey:hover {
+  border: 1px solid #8c8c8c;
+  background: #aaa9a9;
+}
+
+.nemo-button:disabled {
+  background: #a66b57;
+  cursor: not-allowed;
+}

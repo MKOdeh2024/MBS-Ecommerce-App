@@ -1,0 +1,25 @@
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.login-page>form {
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 30px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  padding: 60px 40px;
+}
+
+.login-page>form>h1 {
+  font-size: 28px;
+  color: #be441d;
+  line-height: 1.2;  
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}

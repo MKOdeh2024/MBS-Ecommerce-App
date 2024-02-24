@@ -1,0 +1,55 @@
+.filter-bar {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: flex-start;
+  align-items: flex-end;
+  column-gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.filter-bar>.categories {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.filter-bar>.tourists {
+  display: flex;
+  margin-bottom: 8px;
+  user-select: none;
+}
+
+.filter-bar>.categories>.checkbox-group {
+  display: flex;
+  align-items: center;
+  user-select: none;
+}
+
+.filter-bar>.categories>.checkbox-group>input {
+  display: none;
+}
+
+.filter-bar>.categories>.checkbox-group>label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666;
+  letter-spacing: 0.5px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  cursor: pointer;
+  border: 1px solid #e1cbc4;
+  color: #be441d;
+  background-color: white;
+}
+
+.filter-bar>.categories>.checkbox-group>label>span:nth-child(2) {
+  color: rgb(210, 21, 21);
+}
+
+.filter-bar>.categories>.checkbox-group>label.checked {
+  background-color: #be441d;
+  color: #fff;
+}
